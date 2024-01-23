@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Fooddddie's Kitchen</h1>
+    <!-- Inline CSS for navigation -->
+    <nav style="background-color: #333; color: #fff; padding: 10px;">
+      <ul style="list-style-type: none; margin: 0; padding: 0;">
+        <li style="display: inline; margin-right: 15px;"><a href="#menu" style="text-decoration: none; color: #fff;">Menu</a></li>
+        <li style="display: inline; margin-right: 15px;"><a href="#about" style="text-decoration: none; color: #fff;">About Us</a></li>
+        <li style="display: inline;"><a href="#contact" style="text-decoration: none; color: #fff;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="menu">
+    
+    <pre>
+      Discover the extraordinary at Fooddddie's Kitchen. 
+      Our commitment to quality and exceptional service makes us your top choice.
+      Nestled at the heart of culinary delight, our restaurant is a haven for gastronomic enthusiasts seeking an unforgettable dining experience. 
+      Step into a world where flavors dance on your palate, each dish meticulously crafted to perfection. 
+      Our ambiance is a symphony of elegance and warmth, setting the stage for intimate gatherings or festive celebrations. 
+      From the moment you enter, the tantalizing aroma of exquisite cuisines beckons, promising a journey through a diverse culinary landscape. 
+      Immerse yourself in a tapestry of taste, where innovation meets tradition, and every bite tells a story. 
+      At our restaurant, we don't just serve meals; we curate memories, leaving you with an indelible impression of culinary artistry and unparalleled hospitality.
+     </pre>
+     <h2>Our Menu</h2>
+    <p>Explore our delicious offerings:</p>
+    <ul>
+      <li>Pasta</li>
+      <li>Steak</li>
+      <li>Salads</li>
+    </ul>
+    <img src="menu-image.jpg" alt="Delicious food">
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a family-owned restaurant dedicated to providing quality meals in a cozy atmosphere.</p>
+    <img src="restaurant-image.jpg" alt="Restaurant interior">
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
